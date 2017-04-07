@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<style>
+    .main {
+    width: 200px;
+    height: auto;
+    border: 1px solid black;
+}
+
+ul li {
+    font-size: 25px;
+    list-style: none;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 5px;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+}
+</style>
+</head>
+
+<body>
+    <div class="main">
+        <ul class="list">
+            <li>test1</li>
+            <li>test2</li>
+            <li>test3</li>
+            <li>test4</li>
+            <li>test5</li>
+            <li>test6</li>
+            <li>test7</li>
+            <li>test8</li>
+        </ul>
+    </div>
+</body>
+<script src="js/drag.js"></script>
+<script>
+    var list = new Draggable('.list');
+</script>
+
+</html>
